@@ -1,0 +1,16 @@
+{
+  "name": "Reworking-CSS",
+  "version": "0.0.0",
+  "description": "Using rework-npm for bundling css from npm along with myth and clean-css",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rework",
+    "myth",
+    "clean-css"
+  ],
+  "author": "Ryan Allen",
+  "license": "ISC"
+}
