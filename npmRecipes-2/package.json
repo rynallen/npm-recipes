@@ -4,7 +4,7 @@
   "description": "Using rework-npm for bundling css from npm along with myth and clean-css",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bundle": "rework-npm source.css | myth | cleancss -o bundle.css"
   },
   "keywords": [
     "rework",
@@ -12,5 +12,13 @@
     "clean-css"
   ],
   "author": "Ryan Allen",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "clean-css": "^3.1.6",
+    "myth": "^1.4.0",
+    "rework-npm-cli": "^0.1.1"
+  },
+  "dependencies": {
+    "skelestyle-typography": "0.0.4"
+  }
 }

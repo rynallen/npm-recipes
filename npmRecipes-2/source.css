@@ -1,0 +1,9 @@
+@import "skelestyle-typography";
+
+:root {
+  var-serif: Georgia, serif;
+}
+
+body {
+  font-family: var(serif);
+}
